@@ -73,10 +73,10 @@
 // |       |  @  |  -  |  (   |  )   |  &   |        |  |       | MUTE |  PGDN |   v   |  :   |   *   |   |   |
 //                     |  F11 |      |      |        |  |       |      |       |  F12  |       
             bindings = <
-&bootloader &kp F1  &kp F2    &kp F3      &kp F4     &kp F5                     &kp F6  &kp F7     &kp F8    &kp F9     &kp F10   &trans
-&reset      &trans  &kp RBRC  &kp RBKT    &kp RPAR   &trans                     &trans  &trans     &trans    &trans     &trans    &trans
-&trans      &trans  &kp LBRC  &kp LBKT    &kp LPAR   &trans    &trans   &trans  &trans  &kp PIPE   &kp UNDER &kp MINUS  &kp PLUS  &trans
-&trans      &trans  &trans    &trans      &trans     &trans    &trans   &trans  &trans  &trans     &trans    &trans     &trans    &trans
+&bootloader &kp F1       &kp F2         &kp F3      &kp F4     &kp F5                     &kp F6  &kp F7     &kp F8    &kp F9     &kp F10   &trans
+&reset      &trans       &kp RBRC       &kp RBKT    &kp RPAR   &trans                     &trans  &trans     &trans    &trans     &trans    &trans
+&trans      &trans       &kp LBRC       &kp LBKT    &kp LPAR   &trans    &trans   &trans  &trans  &kp PIPE   &kp UNDER &kp MINUS  &kp PLUS  &trans
+&trans      &kp C_SLEEP  &kp K_POWER    &trans      &trans     &trans    &trans   &trans  &trans  &trans     &trans    &trans     &trans    &trans
                               &kp F11     &trans     &trans    &trans   &trans  &trans  &trans     &kp F12
             >;
 
